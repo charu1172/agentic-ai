@@ -1,0 +1,22 @@
+[agent]
+# ADK Configuration for City Pulse Analyst Agent
+name = "analyst-agent"
+description = "AI agent for urban incident analysis and semantic deduplication"
+
+[env]
+# Google Cloud Configuration
+GCP_PROJECT_ID = "tidy-computing-466411-j9"
+GCP_REGION = "asia-south1"
+
+# Vector Search Configuration (cross-project)
+VECTOR_SEARCH_API_ENDPOINT = "1645951261.asia-south1-557703177809.vdb.vertexai.goog"
+VECTOR_SEARCH_ENDPOINT_RESOURCE_NAME = "projects/557703177809/locations/asia-south1/indexEndpoints/5643872350211407872"
+VECTOR_SEARCH_DEPLOYED_INDEX_ID = "9176946257883561984"
+
+[cloud_run]
+service_name = "city-pulse-analyst-agent"
+region = "asia-south1"
+project = "tidy-computing-466411-j9"
+memory = "2Gi"
+cpu = "1"
+max_instances = 10

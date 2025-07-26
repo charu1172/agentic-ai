@@ -1,0 +1,20 @@
+# Core Google Cloud SDKs (Python client libraries)
+google-cloud-pubsub
+google-cloud-firestore
+
+# Core Google ADK and Agent Engine dependencies (official)
+google-cloud-aiplatform[adk,agent_engines]
+cloudpickle
+
+# Vector search and embeddings
+numpy
+
+# Google Agent Development Kit for Python
+google-adk
+
+# Flask for HTTP endpoints
+Flask
+gunicorn
+
+# Cloud Functions Framework (for alternative deployment)
+functions-framework 

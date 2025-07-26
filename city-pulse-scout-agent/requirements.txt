@@ -1,0 +1,14 @@
+# # Core Google Cloud SDKs (Python client libraries)
+# google-cloud-pubsub
+# requests
+# feedparser
+
+# # Google Agent Development Kit for Python
+# adk 
+
+# # Vertex AI for Reasoning Engines (to deploy the agent and for LLM)
+# google-cloud-aiplatform
+
+google-cloud-pubsub
+requests
+feedparser

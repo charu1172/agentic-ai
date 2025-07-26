@@ -1,0 +1,7 @@
+# Cloud Run deployment requirements
+google-cloud-aiplatform[adk]
+google-cloud-pubsub
+google-cloud-firestore
+flask
+gunicorn
+cloudpickle
